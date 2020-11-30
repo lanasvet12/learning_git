@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'users-list1';
+  title = 'Список пользователей';
+  typesOfShoes: string[] = ['Boots22', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
 }
